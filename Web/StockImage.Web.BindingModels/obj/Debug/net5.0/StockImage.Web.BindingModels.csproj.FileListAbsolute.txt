@@ -1,0 +1,12 @@
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\bin\Debug\net5.0\StockImage.Web.BindingModels.deps.json
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\bin\Debug\net5.0\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\bin\Debug\net5.0\ref\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\bin\Debug\net5.0\StockImage.Web.BindingModels.pdb
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.csproj.AssemblyReference.cache
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.AssemblyInfoInputs.cache
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.AssemblyInfo.cs
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\ref\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web.BindingModels\obj\Debug\net5.0\StockImage.Web.BindingModels.pdb

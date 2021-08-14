@@ -21,7 +21,7 @@ namespace StockImage.Web.Areas.Identity.Pages.Account
             _signInManager = signInManager;
         }
 
-        public async Task<IActionResult> Logout()
+        public async Task<IActionResult> OnGet()
         {
             await _signInManager.SignOutAsync();
 

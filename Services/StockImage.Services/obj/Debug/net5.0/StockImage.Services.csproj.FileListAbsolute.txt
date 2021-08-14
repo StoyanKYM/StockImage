@@ -1,0 +1,12 @@
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Services.deps.json
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Services.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\ref\StockImage.Services.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Services.pdb
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.csproj.AssemblyReference.cache
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.AssemblyInfoInputs.cache
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.AssemblyInfo.cs
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.csproj.CoreCompileInputs.cache
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\ref\StockImage.Services.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.pdb

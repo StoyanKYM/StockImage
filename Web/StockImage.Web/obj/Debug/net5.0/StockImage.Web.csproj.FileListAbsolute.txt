@@ -165,3 +165,16 @@ C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razo
 C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Web.ViewModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Web.ViewModels.pdb
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Web.BindingModels.pdb
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razor\Views\Image\Create.cshtml.g.cs
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\CloudinaryDotNet.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Services.dll
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\bin\Debug\net5.0\StockImage.Services.pdb
+C:\Users\Stoyan\source\repos\StockImage\Web\StockImage.Web\obj\Debug\net5.0\Razor\Views\Image\All.cshtml.g.cs

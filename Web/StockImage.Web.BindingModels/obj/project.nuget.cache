@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "baVUjr54lWEr6fyZSz5GN0UYP8/d6k/SbzF9mGc5TIQiNvzWnFXYvyhLXI7VpD3XcmqpPCj8dpJ/ZGoKfSERJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\Web\\StockImage.Web.BindingModels\\StockImage.Web.BindingModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.9\\microsoft.aspnetcore.http.features.5.0.9.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

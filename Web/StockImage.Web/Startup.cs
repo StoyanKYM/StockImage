@@ -1,3 +1,4 @@
+using CloudinaryDotNet;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -5,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StockImage.Data.Models;
+using StockImage.Services.Extensions;
 using StockImage.Web.Data;
 
 namespace StockImage.Web
@@ -29,7 +31,17 @@ namespace StockImage.Web
                 .AddEntityFrameworkStores<StockImageDb>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc().AddMvcOptions(options => options.EnableEndpointRouting = false);
+            
+
+            Account cloudinaryCredentials = new Account(
+                this.Configuration["Cloudinary:CloudName"],
+                this.Configuration["Cloudinary:ApiKey"],
+                this.Configuration["Cloudinary:ApiSecret"]
+                );
+
+            Cloudinary cloudinaryUtility = new Cloudinary(cloudinaryCredentials);
+
+            services.AddSingleton(cloudinaryUtility);
 
             services.Configure<IdentityOptions>(options =>
             {
@@ -43,7 +55,11 @@ namespace StockImage.Web
 
                 options.User.RequireUniqueEmail = true;
             });
-            
+
+            services.AddTransient<ICloudinaryService, CloudinaryService>();
+
+            services.AddMvc().AddMvcOptions(options => options.EnableEndpointRouting = false);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
