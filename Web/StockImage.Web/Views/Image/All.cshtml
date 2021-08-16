@@ -5,42 +5,70 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>All</h1>
+<h1 class="text-center">Image Gallery</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            
-            <th>
-                Creator Name
-            </th>
-            <th>
-               Title
-            </th>
-            <th>
-                Picture
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatorName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Picture)
-            </td>
-            
-        </tr>
-}
-    </tbody>
-</table>
+
+<hr class="bg-dark" />
+
+<div class="mt-3">
+    @for (int i = 0; i < Model.Count; i += 5)
+    {
+        <div class="products-row row d-flex justify-content-around">
+            @for (int j = i; j < i + 5; j++)
+            {
+                if (j < Model.Count)
+                {
+                    <div class="col-md-2">
+                        <div class="image-holder d-flex justify-content-center">
+                            <img class="img-thumbnail" src="@Model[j].Picture" />
+                        </div>
+                        <h5 class="text-primary text-center mt-3">@Model[j].CreatorName</h5>
+                        <h5 class="text-primary text-center mt-3">@Model[j].Title</h5>
+                    </div>
+                }
+                else
+                {
+                    <div class="product col-md-2 empty"></div>
+                }
+
+            }
+        </div>
+    }
+</div>
+
+
+@*<table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    Creator Name
+                </th>
+                <th>
+                    Title
+                </th>
+                <th>
+                    Picture
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatorName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Picture)
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>*@

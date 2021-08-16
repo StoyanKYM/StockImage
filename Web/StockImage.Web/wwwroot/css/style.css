@@ -1,4 +1,7 @@
-﻿
+﻿.product-image{
+    width: 200px;
+    height: 20%;
+}
 hr {
     padding: 0;
     margin: 0;

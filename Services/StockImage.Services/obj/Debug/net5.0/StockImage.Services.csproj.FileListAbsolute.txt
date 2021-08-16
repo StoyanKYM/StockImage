@@ -10,3 +10,10 @@ C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\n
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.dll
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\ref\StockImage.Services.dll
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.pdb
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Data.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Data.Models.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Web.ViewModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Data.pdb
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Web.ViewModels.pdb
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Data.Models.pdb
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.csproj.CopyComplete

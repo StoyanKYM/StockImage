@@ -2038,7 +2038,9 @@
       "StockImage.Services/1.0.0": {
         "dependencies": {
           "CloudinaryDotNet": "1.15.2",
-          "Microsoft.AspNetCore.Http.Features": "5.0.9"
+          "Microsoft.AspNetCore.Http.Features": "5.0.9",
+          "StockImage.Data": "1.0.0",
+          "StockImage.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "StockImage.Services.dll": {}
