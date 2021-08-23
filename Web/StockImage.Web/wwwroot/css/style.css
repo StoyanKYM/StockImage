@@ -7,6 +7,25 @@ hr {
     margin: 0;
 }
 
+a, p, h1, h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+label.control-label {
+    font-family: 'Poppins', sans-serif;
+}
+
+a.nav-link.logo {
+    font-family: 'Alex Brush', cursive;
+    font-size: 25px;
+    padding:0;
+}
+
+h1.text-center {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
 /* FOOTER */
 .footer-basic {
     padding: 40px 0;
@@ -68,3 +87,101 @@ hr {
         color: #aaa;
         margin-bottom: 0;
     }
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*About us*/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 92.5vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.image {
+    background: url("../img/dog.jpg") center/cover no-repeat;
+}
+
+
+.content {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .content h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+        letter-spacing: 6px;
+        opacity: 0.9;
+    }
+
+    .content span {
+        height: 0.5px;
+        width: 80px;
+        background: #777;
+        margin: 30px 0;
+    }
+    .content p {
+        padding-bottom: 15px;
+        font-weight: 300;
+        opacity: 0.7;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.7;
+    }
+
+.links {
+    margin: 15px 0;
+}
+
+    .links li {
+        border: 0.5px solid #777;
+        list-style: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        width: 160px;
+        text-align: center;
+    }
+
+        .links li a {
+            text-transform: uppercase;
+            color: #777;
+            text-decoration: none;
+        }
+
+        .links li:hover {
+            border-color: #06d6a0;
+        }
+
+            .links li:hover a {
+                color: #06d6a0;
+            }
+
+.vertical-line {
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+
+label.text-torshia {
+    font-family: 'Poppins', sans-serif;
+}
+
+button.btn.bg-dark.text-white {
+    font-family: 'Poppins', sans-serif;
+}
+
+

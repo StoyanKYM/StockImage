@@ -17,3 +17,5 @@ C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\n
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Web.ViewModels.pdb
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Data.Models.pdb
 C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\obj\Debug\net5.0\StockImage.Services.csproj.CopyComplete
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Web.BindingModels.dll
+C:\Users\Stoyan\source\repos\StockImage\Services\StockImage.Services\bin\Debug\net5.0\StockImage.Web.BindingModels.pdb

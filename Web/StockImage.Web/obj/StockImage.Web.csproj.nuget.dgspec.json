@@ -161,6 +161,9 @@
               },
               "C:\\Users\\Stoyan\\source\\repos\\StockImage\\StockImage.Web.ViewModels\\StockImage.Web.ViewModels.csproj": {
                 "projectPath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\StockImage.Web.ViewModels\\StockImage.Web.ViewModels.csproj"
+              },
+              "C:\\Users\\Stoyan\\source\\repos\\StockImage\\Web\\StockImage.Web.BindingModels\\StockImage.Web.BindingModels.csproj": {
+                "projectPath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\Web\\StockImage.Web.BindingModels\\StockImage.Web.BindingModels.csproj"
               }
             }
           }
@@ -238,6 +241,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

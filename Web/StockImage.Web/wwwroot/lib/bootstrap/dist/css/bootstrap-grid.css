@@ -15,36 +15,45 @@ html {
   box-sizing: inherit;
 }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
+
+.container-main {
+    
+    width: 100%;
+    height: 50vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 @media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
+    .container-main {
+        max-width: 800px;
+    }
 }
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
+    .container-main {
+        max-width: 1020px;
+    }
 }
 
 @media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
+    .container-main {
+        max-width: 1200px;
+    }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
+    .container-main {
+        max-width: 1500px;
+    }
+}
+
+@media (min-width: 1480px) {
+    .container-main {
+        max-width: 1700px;
+    }
 }
 
 .container-fluid {
@@ -3717,3 +3726,6 @@ html {
   }
 }
 /*# sourceMappingURL=bootstrap-grid.css.map */
+
+
+

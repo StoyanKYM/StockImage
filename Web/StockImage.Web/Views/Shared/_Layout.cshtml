@@ -10,126 +10,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Untitled</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
     <div class="container-fluid">
-        @if (!this.User.Identity.IsAuthenticated)
-        {
-            <header>
-                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-                    <a class="navbar-brand" href="/Home/Index">StockImage</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarText">
-                        <ul class="navbar-nav">
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Identity/Account/Login">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Identity/Account/Register">Register</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        }
-        else if (this.User.IsInRole("User"))
-        {
-            <header>
-                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-                    <a class="navbar-brand" href="/Home/Index">StockImage</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarText">
-                        <ul class="navbar-nav">
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Image/All">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Identity/Account/Logout">Logout</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        }
-        else if (this.User.IsInRole("Admin"))
-        {
-            <header>
-                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-                    <a class="navbar-brand" href="/Home/Index">StockImage</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarText">
-                        <ul class="navbar-nav">
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
 
-                            <li class="nav-item active">
-                                <div class="dropdown show">
-                                    <a class="nav nav-link active font-weight-bold dropdown-toggle"
-                                       href="#"
-                                       id="image-dropdown"
-                                       data-toggle="dropdown"
-                                       aria-haspopup="true"
-                                       aria-expanded="false">
-                                        Images
-                                    </a>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <div class="container">
+                <div class="collapse navbar-collapse"></div>
 
-                                    <div class="dropdown-menu" aria-labelledby="image-dropdown">
-                                        <a class="dropdown-item font-weight-bold" href="/Image/Create">Upload Image</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item font-weight-bold" href="/Image/All">All Images</a>
-                                    </div>
-                                </div>
-                            </li>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="/Identity/Account/Logout">Logout</a>
-                            </li>
-                    </div>
-                </nav>
-            </header>
-        }
+                        <li class="navbar-brand text-success">
+                            <a class="nav-link logo"
+                               href="/Home/Index">
+                                Stoyan Kyumyurdjiev
+                            </a>
+                        </li>
 
-        <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
-        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-        <hr />
 
-        <div class="footer-basic">
-            <footer>
-                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">Home</a></li>
-                    <li class="list-inline-item"><a href="#">Services</a></li>
-                    <li class="list-inline-item"><a href="#">About</a></li>
-                    <li class="list-inline-item"><a href="#">Terms</a></li>
-                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                </ul>
-                <p class="copyright">StockImage © 2021</p>
-            </footer>
-        </div>
+    <div class="container-main">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
 
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
 
-        @await RenderSectionAsync("Scripts", required: false)
+    <hr class="mt-4" />
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-github"></i></a>
+                <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">StoyanKyumyurdjiev © 2021</p>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
     </div>
 </body>
 </html>

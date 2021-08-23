@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using StockImage.Data.Models;
+using StockImage.Services;
 using StockImage.Services.Extensions;
 using StockImage.Web.Data;
 

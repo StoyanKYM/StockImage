@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\StockImage.Data\StockImage.Data.csproj" />
     <ProjectReference Include="..\..\StockImage.Web.ViewModels\StockImage.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\..\Web\StockImage.Web.BindingModels\StockImage.Web.BindingModels.csproj" />
   </ItemGroup>
 
 </Project>
