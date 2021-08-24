@@ -34,6 +34,7 @@
       "StockImage.Web/1.0.0": {
         "dependencies": {
           "CloudinaryDotNet": "1.15.2",
+          "Grpc.Core": "2.39.1",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.8",
           "Microsoft.AspNetCore.Identity.UI": "5.0.8",
@@ -340,6 +341,62 @@
         },
         "compile": {
           "lib/netstandard2.0/CloudinaryDotNet.dll": {}
+        }
+      },
+      "Grpc.Core/2.39.1": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.39.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.39.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        }
+      },
+      "Grpc.Core.Api/2.39.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.39.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -4312,6 +4369,20 @@
       "sha512": "sha512-PzJ6VtQACFELCXP4q3GQvbepwK9QwyANck4Dx+cbcKnN/FVp37sUcjXOR1LUQ0Nps9nPYuJu0dLBZvK0HkdMbQ==",
       "path": "cloudinarydotnet/1.15.2",
       "hashPath": "cloudinarydotnet.1.15.2.nupkg.sha512"
+    },
+    "Grpc.Core/2.39.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m92WTLEWMic5S+/bVq2Dc3ShLa29gU1NrU/5r2dB1Oxq+ByaxyEstx/DS/PAeIc9r/tJTyYhGFQhFr+ORXyRJw==",
+      "path": "grpc.core/2.39.1",
+      "hashPath": "grpc.core.2.39.1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.39.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8qZlpIhUEyshIY/mlMWAaer9ehOxu/UFO8YlG9kI8MHnBSves5mkc5elkHO0egAJCshYhZjkCNhj+UCKkK0kOQ==",
+      "path": "grpc.core.api/2.39.1",
+      "hashPath": "grpc.core.api.2.39.1.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

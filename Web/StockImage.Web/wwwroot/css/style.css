@@ -11,6 +11,10 @@ a, p, h1, h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
 }
 
+    a.d-block {
+        display: block;
+    }
+
 label.control-label {
     font-family: 'Poppins', sans-serif;
 }
@@ -183,5 +187,7 @@ label.text-torshia {
 button.btn.bg-dark.text-white {
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 

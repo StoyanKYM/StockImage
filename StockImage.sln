@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockImage.Web.BindingModel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockImage.Web.ViewModels", "StockImage.Web.ViewModels\StockImage.Web.ViewModels.csproj", "{F793B84F-16F0-4D9E-A96C-CAAA0DB8468F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockImage.Services", "Services\StockImage.Services\StockImage.Services.csproj", "{7C919B83-349D-44DD-B0DD-4D601286C39C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockImage.Services", "Services\StockImage.Services\StockImage.Services.csproj", "{7C919B83-349D-44DD-B0DD-4D601286C39C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

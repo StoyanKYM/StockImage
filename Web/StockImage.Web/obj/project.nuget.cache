@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "q6sJE0ah2MRYF/LZxKkpxt8ivUbwMnAW0LskhnhV2HVz+89SSay3vPy5K20k+PPOAlrcnovybA/P6KlgAtpKIg==",
+  "dgSpecHash": "aOkqMlnUNHRz6TBQXuEkfvkxeXemsFWhNl2ldsdG34ydSkTo+8rtna8IBhm1GIVfldIPoF92WGuCQxllz+Ukeg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\Web\\StockImage.Web\\StockImage.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\grpc.core\\2.39.1\\grpc.core.2.39.1.nupkg.sha512",
+    "C:\\Users\\Stoyan\\.nuget\\packages\\grpc.core.api\\2.39.1\\grpc.core.api.2.39.1.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
