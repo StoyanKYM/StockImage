@@ -58,7 +58,11 @@ namespace StockImage.Web
             });
 
             services.AddTransient<ICloudinaryService, CloudinaryService>();
+
+            services.AddTransient<IHomeService, HomeService>();
+
             services.AddTransient<IFileService, FileService>();
+
 
             services.AddMvc().AddMvcOptions(options => options.EnableEndpointRouting = false);
 

@@ -6,14 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Files\secondForestFog.jfif" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\Files\secondForestFog.jfif" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.15.2" />
     <PackageReference Include="Grpc.Core" Version="2.39.1" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.8" />

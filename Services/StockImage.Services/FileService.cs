@@ -36,7 +36,7 @@ namespace StockImage.Services
 
         public FileContentResult GetFile()
         {
-            string filename = "secondForestFog.jfif";
+            string filename = "forest.rar";
             var filepath = Path.Combine($"{this._hostingEnvironment.WebRootPath}\\Files\\{filename}");
 
             var mimeType = this.GetMimeType();

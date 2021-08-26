@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StockImage.Services;
 using StockImage.Web.BindingModels;
 using StockImage.Web.Data;
 using StockImage.Web.ViewModels;
@@ -14,11 +15,9 @@ namespace StockImage.Web.Controllers.Comment
 
         private readonly StockImageDbContext _context;
 
-
         public CommentController(StockImageDbContext context)
         {
             this._context = context;
-
         }
         public IActionResult Add()
         {
@@ -28,6 +27,12 @@ namespace StockImage.Web.Controllers.Comment
         [HttpPost]
         public IActionResult Add(CommentCreateBindingModel bindingModel)
         {
+
+            if (!ModelState.IsValid)
+            {
+                return View(bindingModel);
+            }
+
             var comment = new StockImage.Data.Models.Comment()
             {
                 UserName = this.User.Identity.Name,
@@ -42,9 +47,8 @@ namespace StockImage.Web.Controllers.Comment
             this._context.Comments.Add(comment);
             this._context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
-        }
 
-        
+            return RedirectToAction("Index", "Home");
+        }  
     }
 }

@@ -32,6 +32,11 @@ namespace StockImage.Web.Controllers.Image
         [HttpPost]
         public async Task<IActionResult> Create(ImageCreateBindingModel bindingModel)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(bindingModel);
+            }
+
             string pictureUrl = await this._cloudinaryService.UploadPicture(
                     bindingModel.Picture,
                     bindingModel.Title);

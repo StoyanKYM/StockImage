@@ -13,34 +13,24 @@ namespace StockImage.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly StockImageDbContext _context;
+        private readonly IHomeService _hService;
 
-
-        public HomeController(StockImageDbContext context)
+        public HomeController(IHomeService hService)
         {
             
-            this._context = context;
-
+            this._hService = hService;
         }
         public IActionResult Index()
         {
-            List<CommentViewModel> allComments = this._context.Comments.Select(commentsFromDb => new CommentViewModel
-            {
-                CurrentUser = commentsFromDb.UserName,
-                Title = commentsFromDb.Title,
-                Content = commentsFromDb.Content,
-                CreatedOn = commentsFromDb.CreatedOn
-            })
-                .OrderByDescending(date => date.CreatedOn)
-                .ToList();
+
+            var allComments = _hService.GetAllComments();
+            
 
             return View(allComments);
         }
 
         public IActionResult About()
         {
-            
-
             return View();
         }
 

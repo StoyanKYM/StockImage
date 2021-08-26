@@ -9,8 +9,8 @@ hr {
 
 /*About me page*/
 h2.heading-text {
-    padding-top: 2.5rem;
     padding-top: 9rem;
+    padding-bottom: 2rem;
 }
 .bgclass {
     height: 90vh;
@@ -139,7 +139,7 @@ section {
 }
 
 .image {
-    background: url("../img/dog.jpg") center/cover no-repeat;
+    background: url("../img/background.jpg") center/cover no-repeat;
 }
 
 
