@@ -15,7 +15,7 @@ namespace StockImage.Data.Models
         public string Title { get; set; }
         
         public string Content { get; set; }
-        public DateTime CreatedOn { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedOn { get; set; } = DateTime.UtcNow.AddHours(3);
 
     }
 }

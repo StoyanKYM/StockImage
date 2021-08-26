@@ -23,7 +23,6 @@
     <ProjectReference Include="..\..\Data\StockImage.Data.Models\StockImage.Data.Models.csproj" />
     <ProjectReference Include="..\..\Data\StockImage.Data\StockImage.Data.csproj" />
     <ProjectReference Include="..\..\Services\StockImage.Services\StockImage.Services.csproj" />
-    <ProjectReference Include="..\..\StockImage.Web.ViewModels\StockImage.Web.ViewModels.csproj" />
     <ProjectReference Include="..\StockImage.Web.BindingModels\StockImage.Web.BindingModels.csproj" />
   </ItemGroup>
 

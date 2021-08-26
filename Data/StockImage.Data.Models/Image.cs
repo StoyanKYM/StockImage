@@ -1,9 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace StockImage.Data.Models
 {
@@ -15,6 +10,6 @@ namespace StockImage.Data.Models
         public string Title { get; set; }
         public string Picture { get; set; }
 
-        public DateTime UploadedOn { get; set; } = DateTime.UtcNow;
+        public DateTime UploadedOn { get; set; } = DateTime.UtcNow.AddHours(3);
     }
 }

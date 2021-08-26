@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPH86A5d+dC7iz3Jn+jObwKz53FOoeCXT9hyXmInfhs1o/RZKeHbCyAo5d/purqto7Fv1Xnxgc8DAI8El2mxFg==",
+  "dgSpecHash": "F6tV4GvKApKrSWDPYF+JVgxNa9jEAxAWDHDKw1+YwMJ2Y/tc8SgoAcNmK4AnZa+uMPuvRR9ninW5fnfXqnFUew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\StockImage.Web.ViewModels\\StockImage.Web.ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\Stoyan\\source\\repos\\StockImage\\Web\\StockImage.Web.ViewModels\\StockImage.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Stoyan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

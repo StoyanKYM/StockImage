@@ -1,13 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StockImage.Web.BindingModels;
-using StockImage.Data;
-using System;
-using System.Threading.Tasks;
-using StockImage.Web.Data;
 using StockImage.Services.Extensions;
+using StockImage.Web.BindingModels;
+using StockImage.Web.Data;
+using StockImage.Web.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using StockImage.Web.ViewModels;
+using System.Threading.Tasks;
 
 namespace StockImage.Web.Controllers.Image
 {

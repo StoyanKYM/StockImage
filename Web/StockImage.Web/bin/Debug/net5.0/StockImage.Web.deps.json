@@ -45,7 +45,6 @@
           "StockImage.Data.Models": "1.0.0",
           "StockImage.Services": "1.0.0",
           "StockImage.Web.BindingModels": "1.0.0",
-          "StockImage.Web.ViewModels": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",

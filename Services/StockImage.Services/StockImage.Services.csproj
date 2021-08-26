@@ -11,8 +11,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\StockImage.Data\StockImage.Data.csproj" />
-    <ProjectReference Include="..\..\StockImage.Web.ViewModels\StockImage.Web.ViewModels.csproj" />
     <ProjectReference Include="..\..\Web\StockImage.Web.BindingModels\StockImage.Web.BindingModels.csproj" />
+    <ProjectReference Include="..\..\Web\StockImage.Web.ViewModels\StockImage.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
