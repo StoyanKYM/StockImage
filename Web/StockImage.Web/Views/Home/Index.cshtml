@@ -24,17 +24,21 @@
         {
 
 
-            <ul class="links">
-                <li><a href="/Identity/Account/Login" target="_blank" title="Login">Login</a></li>
+    <ul class="links">
+        <li><a href="/Identity/Account/Login" title="Login">Login</a></li>
 
-                <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                <li><a href="/Identity/Account/Register" target="_blank" title="Register">Register</a></li>
+        <li><a href="/Identity/Account/Register" title="Register">Register</a></li>
 
-                <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                <li><a href="termsandconditions.html" target="_blank" title="Terms and Conditions">About</a></li>
-            </ul>
+        <li><a href="/Image/All" title="Gallery">Gallery</a></li>
+
+        <div class="vertical-line"></div>
+
+        <li><a href="/Home/About" title="About Me">About</a></li>
+    </ul>
 
 
 
@@ -43,21 +47,21 @@
         {
             
 
-                    <ul class="links">
-                        <li><a href="/Image/All" target="_blank" title="Gallery">Gallery</a></li>
+    <ul class="links">
+        <li><a href="/Image/All" title="Gallery">Gallery</a></li>
 
-                        <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                        <li><a href="contactme.html" target="_blank" title="Register">Download</a></li>
+        <li><a href="/Comment/Add" title="Send Feedback">Send Feedback</a></li>
 
-                        <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                        <li><a href="/Comment/Add" target="_blank" title="Terms and Conditions">Send Feedback</a></li>
+        <li><a href="/Home/About" title="About Me">About</a></li>
 
-                        <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                        <li><a href="Identity/Account/Logout" target="_blank" title="Terms and Conditions">Logout</a></li>
-                    </ul>
+        <li><a href="/Identity/Account/Logout" title="Logout">Logout</a></li>
+    </ul>
 
 
                 
@@ -66,26 +70,26 @@
         {
             
 
-                    <ul class="links">
-                        <li><a href="/Image/All" target="_blank" title="Gallery">Gallery</a></li>
+    <ul class="links">
+        <li><a href="/Image/All" title="Gallery">Gallery</a></li>
 
-                        <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                        <li><a href="/Image/Create" target="_blank" title="Terms and Conditions">Upload Image</a></li>
+        <li><a href="/Image/Create" title="Upload Image">Upload Image</a></li>
 
-                        <div class="vertical-line"></div>
+        <div class="vertical-line"></div>
 
-                        <li><a href="contactme.html" target="_blank" title="Register">Download</a></li>
+        <li><a href="/Comment/Add" title="Add Comment">Send Feedback</a></li>
 
-                        <div class="vertical-line"></div>
-
-                        <li><a href="/Comment/Add" target="_blank" title="Terms and Conditions">Send Feedback</a></li>
+        <div class="vertical-line"></div>
 
 
-                        <div class="vertical-line"></div>
+        <li><a href="/Home/About" title="About Me">About</a></li>
 
-                        <li><a href="Identity/Account/Logout" target="_blank" title="Terms and Conditions">Logout</a></li>
-                    </ul>
+        <div class="vertical-line"></div>
+
+        <li><a href="/Identity/Account/Logout">Logout</a></li>
+    </ul>
 
 
                 
@@ -95,7 +99,7 @@
 
 <hr class="mt-0 mb-2" />
 
-<h2 class="text-center">All Comments from Users!</h2>
+<h2 class="text-center">Comments from Users!</h2>
 
 
 @foreach (var item in Model)
@@ -106,7 +110,10 @@
                 <div class="bg-white comment-section">
                     <div class="d-flex flex-row user p-2">
                         <img class="rounded-circle" src="https://i.imgur.com/jDimNTZ.jpg" width="50">
-                        <div class="d-flex flex-column ml-2"><span class="name font-weight-bold">@item.Title</span><span>Date: @item.CreatedOn.ToString()</span></div>
+                        <div class="d-flex flex-column ml-2"><span class="name font-weight-bold">@item.CurrentUser</span><span>Date: @item.CreatedOn.ToString()</span></div>
+                    </div>
+                    <div class="mt-2 p-2">
+                        <p class="comment-content">@item.Title</p>
                     </div>
                     <div class="mt-2 p-2">
                         <p class="comment-content">@item.Content</p>

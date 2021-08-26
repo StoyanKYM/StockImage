@@ -12,10 +12,10 @@ namespace StockImage.Web.Controllers.Comment
     public class CommentController : Controller
     {
 
-        private readonly StockImageDb _context;
+        private readonly StockImageDbContext _context;
 
 
-        public CommentController(StockImageDb context)
+        public CommentController(StockImageDbContext context)
         {
             this._context = context;
 
@@ -30,7 +30,7 @@ namespace StockImage.Web.Controllers.Comment
         {
             var comment = new StockImage.Data.Models.Comment()
             {
-               
+                UserName = this.User.Identity.Name,
                 Title = bindingModel.Title,
                 Content = bindingModel.Content
             };

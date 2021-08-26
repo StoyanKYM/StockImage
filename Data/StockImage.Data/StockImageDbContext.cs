@@ -8,11 +8,11 @@ using System.Text;
 
 namespace StockImage.Web.Data
 {
-    public class StockImageDb : IdentityDbContext<StockImageUser, IdentityRole, string>
+    public class StockImageDbContext : IdentityDbContext<StockImageUser, IdentityRole, string>
     {
         public DbSet<Image> Images { get; set; }
         public DbSet<Comment> Comments { get; set; }
-        public StockImageDb(DbContextOptions<StockImageDb> options)
+        public StockImageDbContext(DbContextOptions<StockImageDbContext> options)
             : base(options)
         {
         }

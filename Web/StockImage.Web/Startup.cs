@@ -24,12 +24,12 @@ namespace StockImage.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<StockImageDb>(options =>
+            services.AddDbContext<StockImageDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<StockImageUser, IdentityRole>()
-                .AddEntityFrameworkStores<StockImageDb>()
+                .AddEntityFrameworkStores<StockImageDbContext>()
                 .AddDefaultTokenProviders();
 
             
@@ -70,7 +70,7 @@ namespace StockImage.Web
 
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
-                using (var context = serviceScope.ServiceProvider.GetRequiredService<StockImageDb>())
+                using (var context = serviceScope.ServiceProvider.GetRequiredService<StockImageDbContext>())
                 {
                     context.Database.EnsureCreated();
                     

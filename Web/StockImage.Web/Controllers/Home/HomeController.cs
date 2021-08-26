@@ -13,10 +13,10 @@ namespace StockImage.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly StockImageDb _context;
+        private readonly StockImageDbContext _context;
 
 
-        public HomeController(StockImageDb context)
+        public HomeController(StockImageDbContext context)
         {
             
             this._context = context;
@@ -26,6 +26,7 @@ namespace StockImage.Web.Controllers
         {
             List<CommentViewModel> allComments = this._context.Comments.Select(commentsFromDb => new CommentViewModel
             {
+                CurrentUser = commentsFromDb.UserName,
                 Title = commentsFromDb.Title,
                 Content = commentsFromDb.Content,
                 CreatedOn = commentsFromDb.CreatedOn
@@ -35,6 +36,13 @@ namespace StockImage.Web.Controllers
 
             return View(allComments);
         }
- 
+
+        public IActionResult About()
+        {
+            
+
+            return View();
+        }
+
     }
 }

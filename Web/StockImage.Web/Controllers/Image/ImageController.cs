@@ -13,11 +13,11 @@ namespace StockImage.Web.Controllers.Image
 {
     public class ImageController : Controller
     {
-        private readonly StockImageDb _context;
+        private readonly StockImageDbContext _context;
 
         private readonly ICloudinaryService _cloudinaryService;
 
-        public ImageController(StockImageDb context, ICloudinaryService cloudinaryService)
+        public ImageController(StockImageDbContext context, ICloudinaryService cloudinaryService)
         {
             _context = context;
             _cloudinaryService = cloudinaryService;

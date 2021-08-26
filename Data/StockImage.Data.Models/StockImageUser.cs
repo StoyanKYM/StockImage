@@ -15,6 +15,5 @@ namespace StockImage.Data.Models
             
         }
 
-        public string CreatorName { get; set; }
     }
 }

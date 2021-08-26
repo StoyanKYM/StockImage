@@ -10,9 +10,9 @@ namespace StockImage.Services
 {
     public class ImageService : IImageService
     {
-        private readonly StockImageDb context;
+        private readonly StockImageDbContext context;
 
-        public ImageService(StockImageDb context)
+        public ImageService(StockImageDbContext context)
         {
             this.context = context;
         }
